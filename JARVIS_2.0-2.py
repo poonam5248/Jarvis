@@ -242,9 +242,9 @@ def conversation(user_name):
         elif "mail" in word:
             txt_to_speech("tell message")
             g=s.SMTP('smtp.gmail.com',587)
-            a='deepnikhilgni@gmail.com'
-            b='*******'
-            c='kaurpoonamgni2326@gmail.com'
+            a='**********************' # Enter Sender Email
+            b='*******' # Enter Password
+            c='**********************' # Enter Recievers Email
             d=speechrecognizer()
             e='send successfully'
             g.starttls()
